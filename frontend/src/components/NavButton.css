@@ -1,0 +1,36 @@
+.nav-button{
+    border-radius: 700px;
+    border-width: 0;
+    padding: 13px 25px 14px 19px;
+    font-size: 21px;
+    background-color: white;
+    border-color: white;
+    font-weight:bolder;
+    transition: background-color  0.14s;
+}
+
+.nav-button:hover{
+    color: #ff4081;
+    background-color: RGBA(255,192,203,0.35);
+}
+
+.nav-button.active{
+    color: #ff4081;
+}
+
+.button{
+    border-radius: 700px;
+    border-width: 0;
+    padding: 13px 25px 13px 19px;
+    font-size: 21px;
+    background-color: #ff4081;
+    border-color: white;
+    color: white;
+    font-weight:bolder;
+    text-align: center;
+    transition: background-color  0.14s;
+}
+
+.button:hover{
+    background-color: #DE1F60;
+}
